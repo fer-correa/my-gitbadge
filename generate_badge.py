@@ -123,7 +123,8 @@ def generate_badge(stats, label="contributions"):
         f.write(svg_template)
     print("SVG badge 'badge.svg' created successfully.")
 
-if __name__ == "__main__":
+def main():
+    """Main function to run the badge generation logic."""
     version = get_version()
     print(f"my-gitbadge v{version} starting...")
     
@@ -161,3 +162,6 @@ if __name__ == "__main__":
     generate_badge(contribution_stats, label=badge_label)
 
     print("Badge generation script finished.")
+
+if __name__ == "__main__":
+    main()

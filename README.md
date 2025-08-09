@@ -43,6 +43,20 @@ This project uses a Python script and GitHub Actions to:
     *   Create a new repository secret named `GH_TOKEN`.
     *   The value should be a GitHub Personal Access Token (PAT) with the `public_repo` scope.
 
+## Running Tests
+
+To run the tests locally, first install the development dependencies:
+
+```bash
+pip install -r requirements-dev.txt
+```
+
+Then, run pytest with the coverage report:
+
+```bash
+pytest --cov=generate_badge
+```
+
 ## Usage
 
 Once the setup is complete and the Action has run at least once, you can add the following Markdown to your GitHub profile's `README.md` or any other Markdown file:
