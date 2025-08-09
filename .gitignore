@@ -6,6 +6,9 @@ __pycache__/
 # C extensions
 *.so
 
+# output file
+badge.svg
+
 # Distribution / packaging
 .Python
 build/
