@@ -1,0 +1,4 @@
+github_user: "your-github-username"
+repositories:
+  - "owner1/repo1"
+  - "owner2/repo2"
