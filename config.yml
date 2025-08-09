@@ -1,4 +1,7 @@
-github_user: "your-github-username"
+github_user: "fer-correa"
+organization: "todogroup" # Leave empty or remove
 repositories:
-  - "owner1/repo1"
-  - "owner2/repo2"
+  - "todogroup/ospology"
+  - "todogroup/governance"
+  - "innersourcecommons/InnerSourcePatterns"
+  - "innersourcecommons/InnerSourceLearningPath"
