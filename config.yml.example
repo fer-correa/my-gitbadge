@@ -1,0 +1,5 @@
+github_user: "your-github-username"
+organization: "" # Leave empty or remove if you are not targeting an organization
+repositories:
+  - "owner/repo1"
+  - "owner/repo2"
