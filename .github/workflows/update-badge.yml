@@ -20,12 +20,13 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install -r requirements.txt
+          pip install -r requirements.txt -r requirements-dev.txt
+
+      - name: List installed packages
+        run: pip freeze
 
       - name: Run tests
-        run: |
-          pip install -r requirements-dev.txt
-          pytest --cov=generate_badge
+        run: pytest --cov=generate_badge
 
       - name: Run script to generate badge
         run: python generate_badge.py
